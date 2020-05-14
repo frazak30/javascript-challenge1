@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="./static/css/main.css">
+    <title>UFO Level 1</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">UFO Sightings
+                  <img class="nav-ufo" src="./static/images/ufo.svg">
+                </a>
+              </div>
+            </div>
+          </nav>
+          <div class="hero text-center">
+            <h1>UFO Sightings</h1>
+            <p>The Truth is Out There</p>
+          </div>
+          <div class="container">
+            <div class="row margin-top-50">
+              <div class="col-md-2">
+                <aside class="filters">
+                  <div class="panel panel-default">  
+                  </div>
+                </aside>
+              </div>
+            </div>
+            <br/>
+        <label for="search-date">search date</label> <br/> 
+        <input type="date" name="search-date" id="search-date"> <br/>
+        <table class="table table-sm table table-sm table-dark" >
+            <thead>
+            <tr>
+                <th scope="col">Date</th>
+                <th scope="col">City</th>
+                <th scope="col">State</th>
+                <th scope="col">Country</th>
+                <th scope="col">Shape</th>
+                <th scope="col">Duration</th>
+                <th scope="col">Comment</th>
+            </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+        <footer class="footer">
+          <span class="bottom">UFO Sightings</span>
+        </footer>
+      
+     </div>
+  </div>
+    
+ <script src="./static/js/data.js"></script>    
+ <script src="./static/js/app.js"></script> 
+
+</body>
+</html>
